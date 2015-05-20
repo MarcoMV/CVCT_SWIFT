@@ -24,6 +24,12 @@ class ViewController: UIViewController {
         
         println("El valor de la constante: \(pi) y el área local es: \(areaLocal)")
         //println("Prueba de impresión a consola")
+        
+        /*CONVERSORES*/
+        var temperatura = 12.34
+        var temperaturaINTRedondeada = Int(temperatura)
+        
+        println("Temperatura era igual a: \(temperatura) pero ahora en entero es: \(temperaturaINTRedondeada)")
     }
 
     override func didReceiveMemoryWarning() {
