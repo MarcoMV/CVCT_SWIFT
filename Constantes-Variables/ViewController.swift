@@ -32,10 +32,9 @@ class ViewController: UIViewController {
         
         println("Temperatura era igual a: \(temperatura) pero ahora en entero es: \(temperaturaINTRedondeada)")
         
-        /*Entero a float*/
+        /*Entero a Float*/
         var a = 23
         var b = Float(a)
-        
         println("Entero: \(a) Float: \(b)")
     }
 
