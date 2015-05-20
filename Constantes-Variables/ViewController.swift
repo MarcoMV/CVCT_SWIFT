@@ -26,10 +26,17 @@ class ViewController: UIViewController {
         //println("Prueba de impresión a consola")
         
         /*CONVERSORES*/
+        /*Float a entero*/
         var temperatura = 12.34
         var temperaturaINTRedondeada = Int(temperatura)
         
         println("Temperatura era igual a: \(temperatura) pero ahora en entero es: \(temperaturaINTRedondeada)")
+        
+        /*Entero a float*/
+        var a = 23
+        var b = Float(a)
+        
+        println("Entero: \(a) Float: \(b)")
     }
 
     override func didReceiveMemoryWarning() {
