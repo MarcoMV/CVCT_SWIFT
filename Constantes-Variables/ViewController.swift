@@ -13,6 +13,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let pi = 3.1416
+        let nombreAlumno = "Marco Velázquez"
+        
+        var areaLocal = 233
+        //
+        //
+        
+        areaLocal = 100
+        
+        println("El valor de la constante: \(pi) y el área local es: \(areaLocal)")
+        //println("Prueba de impresión a consola")
     }
 
     override func didReceiveMemoryWarning() {
